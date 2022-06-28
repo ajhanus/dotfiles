@@ -13,6 +13,6 @@ create_symlinks() {
     rm -rf ~/$name
     ln -s $script_dir/$name ~/$name
   done
-)
+}
 
 create_symlinks
